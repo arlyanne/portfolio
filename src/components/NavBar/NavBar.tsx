@@ -17,7 +17,7 @@ export default function NavBar() {
       transition={{ duration: 0.8, ease: "easeOut" }}
       variants={navbarVariants}
     >
-      <div className="text-2xl font-bold">Logo</div>
+      <div className="text-2xl font-bold">Portfólio</div>
       <ul className="flex space-x-6">
         <li>
           <Link
