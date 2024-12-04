@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Avatar from "../Avatar/Avatar";
+import profile from "../../assets/profile.png";
 
 export default function Hero() {
   const textVariants = {
@@ -44,7 +45,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
           variants={imageVariants}
         >
-          <Avatar imageUrl="profile.jpg" altText="" />
+          <Avatar imageUrl={profile} altText="Foto Mª Arlyanne" />
         </motion.div>
       </div>
     </section>
