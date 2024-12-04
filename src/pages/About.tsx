@@ -1,9 +1,7 @@
-import NavBar from "../components/NavBar/NavBar";
+
 
 export default function About() {
     return (
-        <>
-        <NavBar/>
         <div className="min-h-screen bg-gray-900 text-white flex items-start justify-center pt-16 px-8">
             <div className="max-w-4xl">
                 <h1 className="text-5xl font-bold mb-8 text-left">Sobre Mim</h1>
@@ -26,7 +24,6 @@ export default function About() {
                 </p>
             </div>
         </div>
-        </>
         
     );
 }
