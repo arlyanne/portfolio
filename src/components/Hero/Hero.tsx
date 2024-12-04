@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
           variants={imageVariants}
         >
-          <Avatar imageUrl="profile.jpg" altText="Foto de Maria Arlyanne" />
+          <Avatar imageUrl="profile.jpg" altText="" />
         </motion.div>
       </div>
     </section>

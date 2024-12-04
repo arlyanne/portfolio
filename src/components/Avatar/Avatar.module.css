@@ -1,6 +1,6 @@
 .avatar-container {
-    width: 120px; /* Ajuste o tamanho conforme necessário */
-    height: 120px;
+    width: 210px; /* Ajuste o tamanho conforme necessário */
+    height: 210px;
     background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Gradiente */
     border-radius: 50%; /* Torna o contorno circular */
     display: flex;
