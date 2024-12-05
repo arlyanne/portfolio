@@ -1,12 +1,12 @@
 .avatar-container {
-    width: 250px; /* Ajuste o tamanho conforme necessário */
+    width: 250px; 
     height: 250px;
-    background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Gradiente */
-    border-radius: 50%; /* Torna o contorno circular */
+    background: linear-gradient(45deg, #ff6ec4, #7873f5); 
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px; /* Cria espaço entre o contorno e a imagem */
+    padding: 5px; 
   }
   
   .avatar-image {
@@ -14,6 +14,6 @@
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid #000; /* Contorno interno preto */
+    border: 2px solid #000; 
   }
   

@@ -54,7 +54,6 @@ export default function Hero() {
           </p>
         </motion.div>
 
-        {/* Avatar à direita */}
         <motion.div
           className="mt-6 md:mt-0 md:w-1/2 flex justify-center"
           initial="hidden"

@@ -5,8 +5,6 @@ export default function Menu() {
     <div className="min-h-screen bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 text-white flex items-center justify-center pt-16 px-8">
       <div className="w-full max-w-4xl">
         <h2 className="text-4xl font-extrabold text-center text-teal-400 mb-12">Minhas Experiências</h2>
-
-        {/* ARCE */}
         <motion.div
           className="mb-12"
           initial={{ opacity: 0, y: 20 }}

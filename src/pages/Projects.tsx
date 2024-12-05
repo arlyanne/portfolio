@@ -22,7 +22,7 @@ export default function Projects() {
       name: "inventario-react-spa",
       description:
         "Sistema SPA para gerenciamento de inventário: Uma aplicação moderna e eficiente que permite controlar e organizar estoques com facilidade. Desenvolvida para otimizar processos, oferece uma interface intuitiva e funcionalidades práticas, garantindo uma gestão de inventário mais ágil e precisa.",
-      url: "#", // Insira a URL do repositório se disponível
+      url: "#",
       language: "React",
       updatedAt: "Em desenvolvimento",
     },

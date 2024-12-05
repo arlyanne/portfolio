@@ -18,7 +18,7 @@ export default function Contact() {
           </p>
 
           <div className="space-y-12">
-            {/* LinkedIn */}
+
             <div className="flex justify-center items-center space-x-6">
               <a
                 href="https://www.linkedin.com/in/arlyanne-lima-87b75b6b/"
@@ -31,7 +31,6 @@ export default function Contact() {
               </a>
             </div>
 
-            {/* GitHub */}
             <div className="flex justify-center items-center space-x-6">
               <a
                 href="https://github.com/arlyanne"
@@ -44,7 +43,6 @@ export default function Contact() {
               </a>
             </div>
 
-            {/* Email and Phone */}
             <div className="mt-12 text-center">
               <p className="text-2xl text-gray-300 mb-6">
                 <strong>E-mail:</strong>{' '}

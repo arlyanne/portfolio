@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div className="min-h-screen bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 text-white flex items-start justify-center pt-16 px-8">
             <div className="max-w-4xl">
-                {/* Título */}
+
                 <motion.h1
                     className="text-5xl font-extrabold mb-8 text-left"
                     initial={{ opacity: 0, y: -50 }}
@@ -15,7 +15,6 @@ export default function About() {
                     Sobre Mim
                 </motion.h1>
                 
-                {/* Descrição inicial */}
                 <motion.p
                     className="text-lg leading-relaxed text-justify mb-8"
                     initial={{ opacity: 0, x: -50 }}
@@ -35,7 +34,6 @@ export default function About() {
                     Tenho um sólido conhecimento em:
                 </motion.p>
 
-                {/* Lista de habilidades */}
                 <motion.div
                     className="space-y-4 mb-8"
                     initial={{ opacity: 0, x: -50 }}
@@ -73,7 +71,6 @@ export default function About() {
                     </div>
                 </motion.div>
 
-                {/* Finalização */}
                 <motion.p
                     className="text-lg leading-relaxed text-justify"
                     initial={{ opacity: 0, x: -50 }}
