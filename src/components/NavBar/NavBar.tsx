@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import styles from "./NavBar.module.css";
 
 export default function NavBar() {
   const navbarVariants = {
@@ -11,18 +10,23 @@ export default function NavBar() {
 
   return (
     <motion.nav
-      className="sticky top-0 z-50 bg-gray-800 text-white flex items-center justify-between px-6 py-4"
+      className="sticky top-0 z-50 bg-gray-900 text-white flex items-center justify-between px-6 py-4 shadow-xl"
       initial="hidden"
       animate="visible"
       transition={{ duration: 0.8, ease: "easeOut" }}
       variants={navbarVariants}
     >
-      <div className="text-2xl font-bold">Portfólio</div>
-      <ul className="flex space-x-6">
+      {/* Logo or Title */}
+      <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-500">
+        Portfólio
+      </div>
+
+      {/* Navigation Links */}
+      <ul className="flex space-x-8">
         <li>
           <Link
             to="/"
-            className="text-lg hover:text-orange-500 transition duration-300"
+            className="text-lg hover:text-teal-300 transition duration-300"
           >
             Início
           </Link>
@@ -30,7 +34,7 @@ export default function NavBar() {
         <li>
           <Link
             to="/about"
-            className="text-lg hover:text-orange-500 transition duration-300"
+            className="text-lg hover:text-teal-300 transition duration-300"
           >
             Sobre
           </Link>
@@ -38,7 +42,7 @@ export default function NavBar() {
         <li>
           <Link
             to="/projects"
-            className="text-lg hover:text-orange-500 transition duration-300"
+            className="text-lg hover:text-teal-300 transition duration-300"
           >
             Projetos
           </Link>
@@ -46,9 +50,17 @@ export default function NavBar() {
         <li>
           <Link
             to="/contact"
-            className="text-lg hover:text-orange-500 transition duration-300"
+            className="text-lg hover:text-teal-300 transition duration-300"
           >
             Contato
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/menu"
+            className="text-lg hover:text-teal-300 transition duration-300"
+          >
+            Menu Experiências
           </Link>
         </li>
       </ul>
