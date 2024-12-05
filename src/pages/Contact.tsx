@@ -1,13 +1,11 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { motion } from 'framer-motion'; // Importação do motion
+import { motion } from 'framer-motion';
 
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 text-white flex items-center justify-center pt-16 px-8">
       <div className="w-full max-w-4xl">
-        {/* Card com estilo de "Projects" */}
         <motion.div
-          className="bg-gray-800 p-12 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105 mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
