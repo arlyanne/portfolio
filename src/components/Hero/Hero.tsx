@@ -24,7 +24,7 @@ export default function Hero() {
 
   return (
     <section className="relative text-white p-6 min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Fundo com gradiente animado */}
+     
       <motion.div
         className="absolute inset-0 bg-gradient-to-r from-purple-500 via-blue-500 to-indigo-500 bg-cover bg-fixed"
         initial="hidden"
@@ -34,7 +34,7 @@ export default function Hero() {
       />
 
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center space-x-6 relative z-10">
-        {/* Descrição à esquerda */}
+    
         <motion.div
           className="text-center md:text-left md:w-1/2 pl-8"
           initial="hidden"
