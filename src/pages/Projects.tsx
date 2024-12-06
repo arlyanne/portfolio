@@ -53,8 +53,8 @@ export default function Projects() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-500 via-indigo-600 to-blue-500 text-white flex items-start justify-center pt-16 px-8">
-      <div className="max-w-4xl">
+<div className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white flex items-center justify-center pt-16 px-8">
+<div className="max-w-4xl">
         <h2 className="text-4xl font-extrabold text-center mb-12">Meus Projetos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
