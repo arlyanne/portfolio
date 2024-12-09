@@ -7,48 +7,54 @@ export default function Projects() {
       description:
         "Projeto desenvolvido como parte de um trabalho acadêmico solicitado pela faculdade. O sistema simula um campeonato de futebol, permitindo o gerenciamento de equipes, partidas e resultados de forma prática e organizada. Essa aplicação foi projetada para consolidar conhecimentos adquiridos em sala de aula e aplicar boas práticas de desenvolvimento de software.",
       url: "https://github.com/arlyanne/Projeto-Campeonato-Futebol",
-      language: "Java",
-      updatedAt: "Atualizado na semana passada",
+      tecnology: "Java",
+      
     },
     {
       name: "cardapio-react",
       description:
         "Sistema de Pedidos: Uma aplicação desenvolvida para simplificar e agilizar o registro de pedidos em restaurantes. Voltada especialmente para pequenos empreendedores do setor de alimentação, a solução busca eliminar burocracias e otimizar o atendimento ao cliente, permitindo que os atendentes registrem os pedidos de forma rápida, prática e eficiente. O objetivo principal é tornar o gerenciamento mais acessível e funcional para negócios que valorizam a simplicidade no dia a dia.",
       url: "https://github.com/arlyanne/cardapio-react",
-      language: "React",
-      updatedAt: "Atualizado recentemente",
+      tecnology: "React",
     },
     {
       name: "inventario-react-spa",
       description:
         "Sistema SPA para gerenciamento de inventário: Uma aplicação moderna e eficiente que permite controlar e organizar estoques com facilidade. Desenvolvida para otimizar processos, oferece uma interface intuitiva e funcionalidades práticas, garantindo uma gestão de inventário mais ágil e precisa.",
       url: "#",
-      language: "React",
-      updatedAt: "Em desenvolvimento",
+      tecnology: "React",
     },
     {
       name: "teste-focal-point",
       description:
         "Um projeto desenvolvido com o objetivo de criar uma aplicação onde os usuários pudessem planejar e gerenciar atividades diversas. A aplicação permite a criação de tarefas, o acompanhamento de seu progresso e o encerramento após a conclusão. Este projeto foi concebido como uma oportunidade para demonstrar habilidades em CSS, com foco na implementação de estilos específicos e na atenção aos detalhes, atendendo às exigências de design estabelecidas.",
       url: "https://github.com/arlyanne/teste-focal-point",
-      language: "Next",
-      updatedAt: "Atualizado na semana passada",
+      tecnology: "Next",
+      
     },
     {
       name: "leitura-online-frontend",
       description:
-        "O projeto Leitura online é uma plataforma inovadora desenvolvida com o propósito de promover o acesso à leitura em comunidades carentes. Este sistema foi projetado para oferecer uma solução acessível, onde os usuários podem criar contas, acessar uma vasta coleção de livros digitais e desfrutar da leitura diretamente na plataforma, sem a necessidade de adquiri-los fisicamente.",
+        "O projeto Leitura Online é uma plataforma inovadora desenvolvida com o propósito de promover o acesso à leitura em comunidades carentes. Este sistema foi projetado para oferecer uma solução acessível, onde os usuários podem criar contas, acessar uma vasta coleção de livros digitais e desfrutar da leitura diretamente na plataforma, sem a necessidade de adquiri-los fisicamente.",
       url: "https://gitlab.com/leitura-online/leitura-online-frontend",
-      language: "React",
-      updatedAt: "Atualizado na semana passada",
+      tecnology: "React",
+      
     },
+    {
+      name: "Projeto-LocadoraDigital",
+      description:"O Projeto Locadora Online é uma aplicação que simula uma plataforma de locação de filmes e séries. Nele, os usuários podem explorar conteúdos em alta, como filmes e séries populares, com informações detalhadas sobre cada item. Durante o desenvolvimento deste projeto, aprendi a consumir endpoints de APIs para buscar dados em tempo real, exibindo informações como títulos, sinopses e avaliações. O projeto oferece uma experiência interativa e intuitiva, permitindo que os usuários naveguem pelos conteúdos com facilidade, enquanto simula uma verdadeira locadora online.",
+      url: "https://github.com/arlyanne/Projeto-LocadoraDigital",
+      tecnology: "React",
+      
+    },
+
+
     {
       name: "Projeto-Portfolio",
       description:
         "Um portfólio pessoal desenvolvido com o objetivo de demonstrar habilidades em desenvolvimento web. O site possui uma interface interativa e visualmente agradável, apresentando projetos, habilidades e informações sobre o desenvolvedor.",
       url: "https://github.com/arlyanne/Projeto-Portfolio",
-      language: "React",
-      updatedAt: "Em desenvolvimento",
+      tecnology: "React",
     },
   ];
 
@@ -65,13 +71,13 @@ export default function Projects() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <h3 className="text-2xl font-semibold mb-4 text-teal-300">{project.name}</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-purple-300">{project.name}</h3>
               <p className="text-sm text-gray-300 mb-4">{project.description}</p>
-              <p className="text-sm text-gray-300 mb-2">
-                <strong>Linguagem:</strong> {project.language}
+              <p className="text-sm text-gray-400 mb-2">
+                <strong>Tecnologia:</strong> {project.tecnology}
               </p>
               <p className="text-sm text-gray-400 mb-4">
-                <strong>Última atualização:</strong> {project.updatedAt}
+
               </p>
               <a
                 href={project.url}
