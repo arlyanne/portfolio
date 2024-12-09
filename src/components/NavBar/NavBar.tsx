@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 export default function NavBar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const navbarVariants = {
     hidden: { opacity: 0, y: -50 },
     visible: { opacity: 1, y: 0 },
+  };
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
@@ -19,8 +26,20 @@ export default function NavBar() {
       <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-500">
         Portfólio
       </div>
+      <div className="lg:hidden">
+        <button
+          onClick={handleMenuToggle}
+          className="text-3xl focus:outline-none"
+        >
+          <FaBars />
+        </button>
+      </div>
 
-      <ul className="flex space-x-8">
+      <ul
+        className={`${
+          menuOpen ? "block" : "hidden"
+        } lg:flex lg:space-x-8 lg:block`}
+      >
         <li>
           <Link
             to="/"
