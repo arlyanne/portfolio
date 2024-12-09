@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export default function Menu() {
+export default function Experience() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white flex items-center justify-center pt-16 px-8">
       <div className="w-full max-w-4xl">

@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar/NavBar";
-import Menu from "./pages/Menu";
+import Experience from "./pages/Experience";
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/menu" element={<Menu/>}/>
+        <Route path="/experience" element={<Experience/>}/>
       </Routes>
     </Router>
   )

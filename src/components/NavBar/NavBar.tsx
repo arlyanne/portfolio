@@ -55,10 +55,10 @@ export default function NavBar() {
         </li>
         <li>
           <Link
-            to="/menu"
+            to="/experience"
             className="text-lg hover:text-teal-300 transition duration-300"
           >
-            Menu Experiências
+            Experiências
           </Link>
         </li>
       </ul>
