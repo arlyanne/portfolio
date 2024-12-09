@@ -10,7 +10,7 @@ export default function Contact() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-5xl font-extrabold text-center mb-12 text-purple-300">
+          <h2 className="text-5xl font-extrabold text-center mb-12 text-teal-400">
             Formas de me encontrar
           </h2>
           <p className="text-xl text-center mb-12 text-gray-300">
@@ -24,7 +24,7 @@ export default function Contact() {
                 href="https://www.linkedin.com/in/arlyanne-lima-87b75b6b/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-2xl text-blue-500 hover:text-blue-700 transition-colors duration-300"
+                className="flex items-center text-2xl text-teal-300 hover:text-blue-700 transition-colors duration-300"
               >
                 <FaLinkedin className="mr-3 text-4xl" />
                 LinkedIn
@@ -36,7 +36,7 @@ export default function Contact() {
                 href="https://github.com/arlyanne"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-2xl text-blue-500  hover:text-gray-500 transition-colors duration-300"
+                className="flex items-center text-2xl text-teal-300 hover:text-gray-500 transition-colors duration-300"
               >
                 <FaGithub className="mr-3 text-4xl" />
                 GitHub
@@ -47,22 +47,22 @@ export default function Contact() {
                 href="https://gitlab.com/arlyanne"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-2xl text-blue-500  hover:text-gray-500 transition-colors duration-300"
+                className="flex items-center text-2xl text-teal-300  hover:text-gray-500 transition-colors duration-300"
               >
                 <FaGitlab className="mr-3 text-4xl" />
                 GitLab
               </a>
             </div>
-            <div className="flex justify-center items-center text-2xl space-x-6 text-blue-500  hover:text-gray-500 transition-colors duration-300">
+            <div className="flex justify-center items-center text-2xl space-x-6 text-teal-300  hover:text-gray-500 transition-colors duration-300">
               <FaEnvelope className="mr-2" />
               arlyanne.lima.ferro@gmail.com
             </div>
-            <div className="flex justify-center items-center text-2xl space-x-6 text-blue-500  hover:text-gray-500 transition-colors duration-300">
+            <div className="flex justify-center items-center text-2xl space-x-6 text-teal-300  hover:text-gray-500 transition-colors duration-300">
               <a
                 href="https://wa.me/5585998366994?text=Ol%C3%A1,%20Maria%20Arlyanne!"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center text-2xl text-blue-500  hover:text-gray-500 transition-colors duration-300"
+                className="flex items-center text-2xl text-teal-300  hover:text-gray-500 transition-colors duration-300"
               >
                 <FaWhatsapp className="mr-2" />
                 (85) 9-9836-6994

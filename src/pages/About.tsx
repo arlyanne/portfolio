@@ -16,7 +16,7 @@ export default function About() {
     <div className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white flex items-center justify-center pt-16 px-8">
       <div className="max-w-4xl">
         <motion.h1
-          className="text-5xl font-extrabold mb-8 text-left"
+          className="text-5xl font-extrabold mb-8 text-left text-teal-400"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}

@@ -35,10 +35,10 @@ export default function Projects() {
       updatedAt: "Atualizado na semana passada",
     },
     {
-      name: "Projeto-LocadoraDigital",
+      name: "leitura-online-frontend",
       description:
-        "O projeto Locadora Digital é uma plataforma inovadora desenvolvida com o propósito de promover o acesso à leitura em comunidades carentes. Este sistema foi projetado para oferecer uma solução acessível, onde os usuários podem criar contas, acessar uma vasta coleção de livros digitais e desfrutar da leitura diretamente na plataforma, sem a necessidade de adquiri-los fisicamente.",
-      url: "https://github.com/arlyanne/Projeto-LocadoraDigital",
+        "O projeto Leitura online é uma plataforma inovadora desenvolvida com o propósito de promover o acesso à leitura em comunidades carentes. Este sistema foi projetado para oferecer uma solução acessível, onde os usuários podem criar contas, acessar uma vasta coleção de livros digitais e desfrutar da leitura diretamente na plataforma, sem a necessidade de adquiri-los fisicamente.",
+      url: "https://gitlab.com/leitura-online/leitura-online-frontend",
       language: "React",
       updatedAt: "Atualizado na semana passada",
     },
@@ -55,7 +55,7 @@ export default function Projects() {
   return (
 <div className="min-h-screen bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white flex items-center justify-center pt-16 px-8">
 <div className="max-w-4xl">
-        <h2 className="text-4xl font-extrabold text-center mb-12">Meus Projetos</h2>
+        <h2 className="text-4xl font-extrabold text-center text-teal-400 mb-12">Meus Projetos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
@@ -65,9 +65,9 @@ export default function Projects() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <h3 className="text-2xl font-semibold mb-4 text-purple-300">{project.name}</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-teal-300">{project.name}</h3>
               <p className="text-sm text-gray-300 mb-4">{project.description}</p>
-              <p className="text-sm text-gray-400 mb-2">
+              <p className="text-sm text-gray-300 mb-2">
                 <strong>Linguagem:</strong> {project.language}
               </p>
               <p className="text-sm text-gray-400 mb-4">
